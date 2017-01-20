@@ -204,7 +204,7 @@ main{
 
 .specials li{
   margin-left:-35px;
-  padding:5% 0;
+  padding:3% 0;
 }
 
 .specials ul li a{
@@ -455,6 +455,7 @@ nav ul{
   justify-content:flex-end;
   float:left;
   margin:0;
+  line-height:3em;
 }
 
 nav li{
