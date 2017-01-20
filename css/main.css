@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*********BASE STYLES ************/
+/********** BASE STYLES **********/
 
 html{
   font-size:16px;
@@ -129,7 +129,7 @@ p{
   font-size:1em;
 }
 
-/******** HEADER *********/
+/********** HEADER **********/
 
 header h1 span{
   color:#77a466;
@@ -163,7 +163,7 @@ nav li{
   margin-top:3%;
 }
 
-/******MAIN CONTENT - TOP ********/
+/********** MAIN CONTENT - TOP **********/
 main{
   clear:both;
   width:90%;
@@ -182,7 +182,7 @@ main{
   width:100%;
 }
 
-/*****MAIN CONTENT - BOTTOM *******/
+/********** MAIN CONTENT - BOTTOM **********/
 
 .bottom-content{
   border-top:#dedbdc 1px solid;
@@ -217,7 +217,7 @@ main{
   display:none;
 }
 
-/********FOOTER **********/
+/********** FOOTER **********/
 footer{
   margin-top:6%;
   text-align:center;
@@ -320,10 +320,11 @@ footer h2 span{
 }
 
 
-/*******FOR TABLETS**********/
+/******************* FOR TABLETS ********************/
 @media only screen and (min-width: 750px){
-/******BASE STYLES ******/
 
+
+/********** BASE STYLES **********/
 
 
 main{
@@ -332,7 +333,7 @@ main{
   font-size:1.2em;
 }
 
-/******HEADER********/
+/********** HEADER **********/
 
 .logo{
   width:100%;
@@ -351,7 +352,7 @@ nav ul{
   justify-content:center;
 }
 
-/**********Bottom-content *************/
+/********** BOTTOM CONTENT **********/
 .specials{
   float:left;
   width:45%;
@@ -386,14 +387,11 @@ nav ul{
 
 }
 
-/******DESKTOP STYLES *************/
+/******************** DESKTOP STYLES ********************/
 
 @media only screen and (min-width: 950px){
 
-/*****BASE STYLES*********/
-body{
-  margin:0 5%;
-}
+/********** BASE STYLES **********/
 
 main{
   width:100%;
@@ -423,7 +421,7 @@ h3{
   float:left;
 }
 
-/*******header **************/
+/********** HEADER **********/
 
 header{
   width:100%;
@@ -467,7 +465,8 @@ nav li{
 nav li a{
   font-size:.875em;
 }
-/******bottom-content ******************/
+
+/********** BOTTOM CONTENT **********/
 
 .bottom-content{
   width:100%;
@@ -525,15 +524,15 @@ footer h2{
 }
 
 @media only screen and (min-width: 1350px){
+/******************** DESKTOP STYLES ********************/
 
-  html{
-    font-size:1.3em;
-  }
+html{
+  font-size:1.3em;
+}
 
-  nav ul {
-    padding-bottom:2%;
-  }
-
+nav ul {
+  padding-bottom:2%;
+}
 
 }
 
