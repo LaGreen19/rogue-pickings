@@ -344,7 +344,7 @@ nav{
 }
 nav li{
     float:left;
-    padding:3%;
+    padding:0 2%;
   }
 
 nav ul{
@@ -395,7 +395,6 @@ nav ul{
 
 main{
   width:98%;
-  margin:0 auto;
 }
 
 h1{
@@ -439,32 +438,27 @@ header{
 .top-header{
   height: 80px;
   padding-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 nav{
   display:flex;
   justify-content:flex-end;
   width:63%;
-  float:right;
 }
 
 nav ul{
   display:flex;
   justify-content:flex-end;
   float:left;
-  margin: 0 3% 0 0;
-  line-height:3em;
-  height:3em;
+  margin-right:3%;
 }
 
 nav li{
   list-style:none;
   margin-left:2%;
   padding:0;
-}
-
-nav li a{
-  font-size:.875em;
 }
 
 /********** BOTTOM CONTENT **********/
@@ -529,10 +523,6 @@ footer h2{
 
 html{
   font-size:1.3em;
-}
-
-nav ul {
-  padding-bottom:2%;
 }
 
 }
